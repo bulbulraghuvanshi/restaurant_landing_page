@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialInstagram } from "react-icons/ti";
 import { FaCopyright } from "react-icons/fa";
+import bg from "../image/E-logos.jpeg";
 
 const Footer = () => {
 	return (
@@ -33,7 +34,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="flex items-center text-yellow-500 h-1/6">
-					Stay Healthy...Stay Safe !!!!
+					Eat Healthy...Stay Safe !!!!
 				</div>
 			</div>
 			<div className="flex flex-col w-1/3">
@@ -68,8 +69,9 @@ const Footer = () => {
 					2023 Eatofy Pvt. Ltd.
 				</div>
 			</div>
-			<div className="w-1/3 ">
-				<img src="src/image/E-logos.jpeg" alt="" className="h-20 w-20" />
+			<div className="flex flex-col  text-4xl justify-center items-center w-1/3 text-yellow-600 font-semibold">
+				<img src={bg} alt="" className="mb-6 h-44 w-56" />
+				EATOFY
 			</div>
 		</div>
 	);

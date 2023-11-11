@@ -20,7 +20,7 @@ const Navbar = () => {
 			</a>
 
 			<button>Log in</button>
-			<button className=" py-1 px-4 rounded-full bg-yellow-500 text-white">
+			<button className=" py-1 px-4 rounded-full bg-yellow-500 text-white hover:scale-110">
 				Sign up
 			</button>
 		</div>
